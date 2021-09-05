@@ -1,19 +1,28 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .taskbar{
-    background-color: #cca360;
+    background-color: #e46339;
     width: 100%;
     position: absolute;
     top: 0;
     display: flex;
     /* justify-content: center; */
     z-index: 110;
+    padding: 6px 0;
 }
 
-.vid{
+.image{
+    position: fixed;
+    height: 110%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* .vid{
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -21,9 +30,9 @@
     padding: 0;
     display: block;
     object-fit: cover;
-}
+} */
 
-img{
+#logo{
     height: 60px;
     width: 60px;
     padding-left: 12px;
@@ -32,4 +41,49 @@ img{
 h2{
     margin: 15px;
     color: #f7faff;
+}
+
+.menu-item{
+    display: inline;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f8cfad;
+}
+
+.right{
+    position: absolute;
+    top: 32px;
+    right: 26px;
+}
+
+a{
+    color: #f7faff;
+}
+
+.main{
+    display: flex;
+    position: absolute;
+    top: 90px;
+    font-size: larger;
+    flex-direction: column;
+    padding: 30px;
+    letter-spacing: 1;
+    word-spacing: 1;
+    color: rgb(31, 83, 114);
+}
+
+.btn{
+    background-color: rgb(115 155 230);
+    color: #f7faff;
+    font-size: larger;
+    padding: 8px;
+    margin-top: 16px;
+    width: 100px;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: rgb(31, 83, 114);
+    cursor: pointer;
 }
