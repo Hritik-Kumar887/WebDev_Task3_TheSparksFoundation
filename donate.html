@@ -1,11 +1,15 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Gateway Integration</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>PAYMENT GATEWAY</title>
 </head>
+
+
 <body>
     <div class="taskbar">
         <img id="logo" src="https://www.thesparksfoundationsingapore.org/images/logo_small.png" alt="Sparks logo">
@@ -16,16 +20,14 @@
         <span><h2>The Sparks Foundation</h2></span>
     </div>
     <img src="https://img.freepik.com/free-vector/homeless-dirty-man-sitting-ground-with-nameplate-need-help-isolated-flat-vector-illustration-cartoon-desperate-poor-person-sitting-street-near-trash-charity-unemployment-concept_74855-10091.jpg?size=626&ext=jpg&ga=GA1.2.1615818343.1630540800" alt="body-image" class="image">
-    <div class="main">
-        <h1>We need your help.</h1><br><br>
-        <p>
-            As a non-profit, we rely on donations to provide the food to homeless people,<br> specially in these times of pandemic,<br> they need you the most.<br><br><b>100% of your donation will be spent on the food and homeless people that are counting on you.</b>
-        </p><br>
-        <button class="btn"><a style="text-decoration: none;" href="/donate.html">Donate</a></button>
-    </div>
+    <form class="gateway">
+        <h3>You are truely making this world a better place to live in!</h3><br><br>
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Htt5OTUZTTywMO" async> </script> </form>
+    </form>
+    
     <div id="bottom">
         <p>©2021 Hritik Kumar</p>
     </div>  
+
 </body>
-<script src="script.js"></script>
 </html>

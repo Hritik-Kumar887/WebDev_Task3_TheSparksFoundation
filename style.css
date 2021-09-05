@@ -17,9 +17,10 @@
 
 .image{
     position: fixed;
-    height: 110%;
-    width: 100%;
-    margin-top: 50px;
+    margin-left: 27%;
+    height: 90%;
+    width: 75%;
+    margin-top: 219px;
 }
 
 /* .vid{
@@ -78,12 +79,35 @@ a{
     color: #f7faff;
     font-size: larger;
     padding: 8px;
-    margin-top: 16px;
+    margin-top: 24px;
+    margin-left: 10px;
     width: 100px;
     border-radius: 6px;
+    border-top-style: hidden;
+    border-left-style: hidden;
 }
 
 .btn:hover{
     background-color: rgb(31, 83, 114);
     cursor: pointer;
+}
+
+#bottom{
+    position: absolute;
+    bottom: 2px;
+    font-size: smaller;
+}
+
+.gateway{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 30%;
+    top: 20%;
+    position: absolute;
+    font-size: larger;
+    padding: 30px;
+    border: 3px solid #305491;
+    border-radius: 12px;
 }
