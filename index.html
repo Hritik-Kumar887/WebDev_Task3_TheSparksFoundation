@@ -18,8 +18,8 @@
     <img src="https://img.freepik.com/free-vector/homeless-dirty-man-sitting-ground-with-nameplate-need-help-isolated-flat-vector-illustration-cartoon-desperate-poor-person-sitting-street-near-trash-charity-unemployment-concept_74855-10091.jpg?size=626&ext=jpg&ga=GA1.2.1615818343.1630540800" alt="body-image" class="image">
     <div class="main">
         <h1>We need your help.</h1><br><br>
-        <p>
-            As a non-profit, we rely on donations to provide the food to homeless people,<br> specially in these times of pandemic,<br> they need you the most.<br><br><b>100% of your donation will be spent on the food and homeless people that are counting on you.</b>
+        <p class="para">
+            As a non-profit, we rely on donations to provide the food to homeless people,<br> specially in these times of pandemic,<br> they need you the most.<br><br><b>100% of your donation will be spent on the food<br> and homeless people that are counting on you.</b>
         </p><br>
         <button class="btn"><a style="text-decoration: none;" href="donate.html">Donate</a></button>
     </div>
@@ -27,5 +27,10 @@
         <p>©2021 Hritik Kumar</p>
     </div>  
 </body>
-<script src="script.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script>
+    gsap.from('h1',{opacity: 0, duration: 1, y:-40,})
+    gsap.from('.para',{opacity: 0, duration: 1, y:-40, delay: 0.5})
+    gsap.from('.btn',{opacity: 0, duration: 2, y: 20, delay: 0.9})
+</script>
 </html>

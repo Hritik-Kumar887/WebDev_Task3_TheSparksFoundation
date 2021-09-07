@@ -55,7 +55,7 @@ a{
 .main{
     display: flex;
     position: absolute;
-    top: 90px;
+    top: 140px;
     font-size: larger;
     flex-direction: column;
     padding: 30px;
@@ -119,7 +119,7 @@ a{
     color: rgb(31, 83, 114);
 }
 
-.entry{
+.entry1, .entry2{
     padding: 8px;
     font-size: 16px;
     margin: 8px;
@@ -129,7 +129,11 @@ a{
     outline: none;
 }
 
-.entry:hover{
+.entry1:hover{
+    cursor: pointer;
+}
+
+.entry2:hover{
     cursor: pointer;
 }
 
@@ -145,4 +149,9 @@ a{
 
 #message{
     cursor: pointer;
+}
+
+.para{
+    padding-block: 10px;
+    line-height: 157%;
 }
